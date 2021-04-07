@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background: #eee;
+    margin: 0 10vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+li, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* nav */
+
+nav ul {
+    padding: 2vh 0 0 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1.5vw;
+
+}
+
+nav a, h1 {
+    color: #659d89;
+}
+
+/* header */
+
+header article {
+    padding-top: 10vh ;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 3.5rem;
+    margin-top: 1vh;
+}
+
+article li:first-child {
+    width: 25px;
+    height: 25px;
+    background: url(../img/twitter.png) center / cover no-repeat;
+}
+
+article li:nth-child(2) {
+    width: 25px;
+    height: 25px;
+    background: url(../img/facebook.png) center / cover no-repeat;
+}
+article li:last-child {
+    width: 25px;
+    height: 25px;
+    background: url(../img/instagram.png) center / cover no-repeat;
+}
+
+article ul {
+    float: right;
+    margin-top: 10vh;
+}
+
+article li {
+    margin-bottom: 1.2vh;
+}
+
+header p {
+    position: absolute;
+    bottom: 5%;
+    font-size: .9rem;
+}
+
+header p::before {
+    content: "↓";
+    margin-right:  2vw;
+    font-size: 1.5rem;
+}
+
+/* main */
+
